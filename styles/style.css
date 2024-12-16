@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #ff0078;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.box input {
+  display: none;
+}
+
+.box .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unit {
+  font-weight: bold;
+}
+
+.offer {
+  color: red;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.options {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.lfooter{
+  color: aqua;
+  margin-right: 20px;
+  text-align: end;
+}
+
+button {
+  background: #ff0078;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6006e;
+}
